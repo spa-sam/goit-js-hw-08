@@ -23,13 +23,14 @@ body {
     grid-gap: 24px;
 }
 
-.gallery-item {
+.gallery-item img{
     width: 360px;
     height: 200px;
     transition: transform 0.5s ease; 
 }
 
-.gallery-item:hover {
+.gallery-item img:hover {
+    cursor: url('./img/bxs_hand-down.svg'), pointer;
     transform: scale(1.04444, 1.04); 
 }
 
