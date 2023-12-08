@@ -30,7 +30,7 @@ body {
 }
 
 .gallery-item img:hover {
-    cursor: url('./img/bxs_hand-down.svg'), pointer;
+    cursor: url('bxs_hand-down.svg'), pointer;
     transform: scale(1.04444, 1.04); 
 }
 
